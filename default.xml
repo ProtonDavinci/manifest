@@ -1105,5 +1105,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- ProtonAOSP changes -->
+  <include name="remove.xml" />
   <include name="proton.xml"/>
+  <include name="others.xml" />
 </manifest>
