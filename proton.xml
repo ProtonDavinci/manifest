@@ -10,9 +10,6 @@
   <remote name="blobs" fetch="https://github.com/NeutronBlobs" revision="sc-v2" />
   <remote name="blobs-ssh" fetch="ssh://git@github.com/NeutronBlobs" revision="sc-v2" />
 
-  <!-- Remove existing repositories -->
-  <remove-project name="platform/external/zlib" />
-
   <!-- Replace existing repositories -->
   <remove-project name="platform/frameworks/base" />
   <project name="android_frameworks_base" path="frameworks/base" remote="proton" groups="proton" />
