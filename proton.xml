@@ -15,16 +15,6 @@
   <project name="android_frameworks_base" path="frameworks/base" remote="proton" groups="proton" />
   <remove-project name="platform/libcore" />
   <project name="android_libcore" path="libcore" remote="proton" groups="proton" />
-  <remove-project name="platform/build" />
-  <project name="android_build_make" path="build/make" remote="proton" groups="proton">
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   <remove-project name="device/common" />
   <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
   <remove-project name="platform/art" />
