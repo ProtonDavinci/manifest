@@ -61,6 +61,7 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/base" />
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
